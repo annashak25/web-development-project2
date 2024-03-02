@@ -7,6 +7,6 @@ let messagevalue=document.querySelector("#message").value;
 if (!namevalue || !emailvalue || !messagevalue){
     alert("Please enter name, email, and message.");
 }else{
-    alert("Thank you for submitting the form. ")
+    alert("Thank you for submitting the form. ");
 }
 })
