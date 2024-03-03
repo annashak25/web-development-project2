@@ -1,3 +1,4 @@
+/* Global CSS styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,7 @@
     box-sizing: border-box;
 }
 
-/* nav start */
-
+/* Navigation styles */
 nav {
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ nav {
 nav a {
     display: inline-block;
     color: white;
-    text-decoration: None;
+    text-decoration: none;
     padding: 10px 30px;
     transition: background-color 0.3s;
 }
@@ -25,8 +25,7 @@ nav a:hover {
     background-color: teal;
 }
 
-/* nav end */
-
+/* Main content wrapper styles */
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -36,12 +35,14 @@ nav a:hover {
     margin: 50px 0;
 }
 
+/* Footer styles */
 footer {
     text-align: center;
     background-color: grey;
     padding: 30px 0;
 }
 
+/* Heading styles */
 .head2, .head {
     background-color: lightblue;
     color: white;
@@ -49,6 +50,68 @@ footer {
     border-radius: 10px;
 }
 
+.head {
+    background-color: teal;
+}
+
+/* About Me section styles */
+.divider {
+    display: flex;
+}
+
+.about-text {
+    width: 50%;
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+#dp {
+    width: 50%;
+}
+
+/* Contact form styles */
+form {
+    background-color: lightblue;
+    padding: 35px 30px;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 15px;
+    height: 60px;
+}
+
+.form-group-1 {
+    width: 30%;
+}
+
+.form-group-2 {
+    width: 70%;
+}
+
+input {
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#message {
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px 100px;
+    background-color: teal;
+    color: white;
+}
 .head {
     background-color: teal;
 }

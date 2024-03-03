@@ -1,3 +1,4 @@
+<!-- HTML for the Contact page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,41 +8,43 @@
 </head>
 <body>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<!-- Navigation bar -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-  <div class="wrapper">
-    <h1 class="head">Feel free to get in touch</h1>
+<div class="wrapper">
+  <!-- Contact heading -->
+  <h1 class="head">Feel free to get in touch</h1>
 
+  <!-- Contact form -->
+  <form>
+    <h2>Contact Me</h2>
+    <div class="form-group">
+      <label for="name" class="form-group-1">Name:</label>
+      <input type="text" name="name" id="name"  class="form-group-2">
+    </div>
+    <div class="form-group">
+      <label for="email"  class="form-group-1">Email:</label>
+      <input type="email" name="email" id="email"  class="form-group-2">
+    </div>
+    <div>
+      <label for="message"  class="form-group-1">Message:</label>
+      <textarea name="message" id="message" rows="10"></textarea>
+    </div>
 
-    <form>
-      <h2>Contact Me</h2>
-      <div class="form-group">
-        <label for="name" class="form-group-1">Name:</label>
-        <input type="text" name="name" id="name"  class="form-group-2">
-      </div>
-      <div class="form-group">
-        <label for="email"  class="form-group-1">Email:</label>
-        <input type="email" name="email" id="email"  class="form-group-2">
-      </div>
-      <div>
-        <label for="message"  class="form-group-1">Message:</label>
-        <textarea name="message" id="message" rows="10">
-        </textarea>
-      </div>
-
-        <input type="submit" value="Send" class="submit-btn">
-
-    </form>
-  </div>
-
-  <footer>
-    <p>&copy; 2024, All Rights Reserved</p>
-  </footer>
+    <!-- Submit button -->
+    <input type="submit" value="Send" class="submit-btn">
+  </form>
 </div>
+
+<footer>
+  <p>&copy; 2024, All Rights Reserved</p>
+</footer>
+
+<!-- Link to external JavaScript file -->
 <script src="script.js"></script>
 </body>
 </html>
