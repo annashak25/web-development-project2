@@ -11,6 +11,7 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #000a09;
+    padding: 20px 0;
 }
 
 nav a {
@@ -26,13 +27,30 @@ nav a:hover {
 }
 
 /* Main content wrapper styles */
-.wrapper {
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
 
+section {
+    padding: 40px 0;
+}
+
+#hero {
+    background-color: teal;
+}
+
+#hero .head {
+    background-color: teal;
+}
+
+#hero p {
+    color: white;
+    text-align: center;
+}
+
 .wrapper .head {
-    margin: 50px 0;
+    text-align: center;
 }
 
 /* Footer styles */
@@ -46,15 +64,22 @@ footer {
 .head2, .head {
     background-color: lightblue;
     color: white;
-    padding: 30px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
-.head {
-    background-color: teal;
-}
 
 /* About Me section styles */
+
+#about{ 
+    background-color: lightblue;
+}
+
+#about h2.head {
+    color: #000;
+}
+
 .divider {
     display: flex;
 }
@@ -63,6 +88,9 @@ footer {
     width: 50%;
     background-color: lightgrey;
     padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 #dp {
@@ -70,50 +98,72 @@ footer {
 }
 
 /* Contact form styles */
+
+#contact {
+    background-color: lightblue;
+}
+
+#contact h1.head {
+    color: black;
+    background-color: lightblue;
+}
+
 form {
     background-color: lightblue;
-    padding: 35px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
+}
+
+form h2 {
+    text-align: center;
 }
 
 .form-group {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
-    height: 60px;
 }
 
-.form-group-1 {
-    width: 30%;
+.form-group label {
+    display: block;
+    margin-right: 14px;
+    min-width: 70px;
 }
 
-.form-group-2 {
-    width: 70%;
-}
-
-input {
-    padding-left: 20px;
+.form-group input {
+    padding: 6px 12px;
     font-size: 15px;
     border: none;
     border-radius: 10px;
 }
 
-#message {
+.form-group #message {
     border-radius: 10px;
     border: none;
     padding: 20px;
     display: block;
-    width: 100%;
+    width: 207px;
+    height: 100px;
     margin-top: 20px;
 }
 
 .submit-btn {
-    margin-top: 20px;
     padding: 10px 100px;
     background-color: teal;
     color: white;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    cursor: pointer;
 }
+
+.submit-btn:hover {
+    background-color: rgb(4, 19, 19);
+}
+
 .head {
-    background-color: teal;
+    background-color: rgb(11, 53, 53);
 }
 
 .divider {
@@ -129,9 +179,9 @@ input {
     width:50%;
 }
 
-form {
+/* form {
     background-color: lightblue;
-    padding: 35px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
 }
 
@@ -170,4 +220,4 @@ input {
     padding: 10px 100px;
     background-color: teal;
     color: white;
-}
+} */
